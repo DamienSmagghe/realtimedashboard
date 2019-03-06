@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../assets/fonts/SpaceMono-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../assets/fonts/SpaceMono-Regular.ttf");
+    font-weight: regular;
+}
+
+body {
+    background: #080228;
+    font-family: SpaceMono;
+    color: white;
+}
+.logo__container {
+    margin: 1rem auto;
+    width: 25%;
+}
+.logo {
+    width: 100%;
+}
+main {
+    display: flex;
+    justify-content: space-between
+}
+.costumersData__container, .map__container, .photosData__container {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    background: #1A1439;
+    text-align: center;
+    padding: 2rem 3rem;
+    margin: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+.costumerData .data {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+.costumerData .type {
+    text-transform: uppercase;
+    margin-top: 1rem;;
+    letter-spacing: 0.05rem;
+}
+.costumerData span {
+    display: block;
+}

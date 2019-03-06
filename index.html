@@ -1,15 +1,53 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ma description">  
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Dimensional Charting</title>
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="http://dc-js.github.io/dc.js/css/dc.css" />
 </head>
+
 <body>
-    <script src="scripts/app.js"></script>
+    <div class="logo__container">
+        <img class="logo" src="./assets/images/memento.png" alt="Logo memento">
+    </div>
+    <main>
+            <div class="costumersData__container">
+                    <div class="costumerData card">
+                        <span class="data">99999</span>
+                        <span class="type">clients</span>
+                    </div>
+                    <div class="costumerData card">
+                            <span class="data">99999</span>
+                            <span class="type">clients</span>
+                        </div>
+                </div>
+                <div class="map__container">
+            
+                </div>
+                <div class="photosData__container">
+                        <div class="costumerData card">
+                                <span class="data">99999</span>
+                                <span class="type">clients</span>
+                            </div>
+                </div>
+    </main>
+    
+
+    <div id="chart-ring-year"></div>
+    <div id="chart-row-spenders"></div>
+
+    <script type="text/javascript" src="http://dc-js.github.io/dc.js/js/d3.js"></script>
+    <script type="text/javascript" src="http://dc-js.github.io/dc.js/js/crossfilter.js"></script>
+    <script type="text/javascript" src="http://dc-js.github.io/dc.js/js/dc.js"></script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script type="text/javascript" src="scripts/app.js">
+
+    </script>
+
 </body>
+
 </html>
